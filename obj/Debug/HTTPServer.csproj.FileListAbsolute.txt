@@ -1,0 +1,6 @@
+c:\users\илья\documents\visual studio 2017\Projects\HTTPServer\HTTPServer\bin\Debug\HTTPServer.exe.config
+c:\users\илья\documents\visual studio 2017\Projects\HTTPServer\HTTPServer\bin\Debug\HTTPServer.exe
+c:\users\илья\documents\visual studio 2017\Projects\HTTPServer\HTTPServer\bin\Debug\HTTPServer.pdb
+c:\users\илья\documents\visual studio 2017\Projects\HTTPServer\HTTPServer\obj\Debug\HTTPServer.csprojResolveAssemblyReference.cache
+c:\users\илья\documents\visual studio 2017\Projects\HTTPServer\HTTPServer\obj\Debug\HTTPServer.exe
+c:\users\илья\documents\visual studio 2017\Projects\HTTPServer\HTTPServer\obj\Debug\HTTPServer.pdb
