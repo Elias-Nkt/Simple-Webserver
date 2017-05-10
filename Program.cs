@@ -5,6 +5,7 @@ using System.Net;
 using System.Net.Sockets;
 using System.Text;
 using System.Threading.Tasks;
+using System.Threading;
 
 namespace HTTPServer
 {
@@ -35,7 +36,9 @@ namespace HTTPServer
 
             while (true)
             {
-                new Client(Listener.AcceptTcpClient());
+                TcpClient Client = Listener.AcceptTcpClient();
+                Thread Thread = new Thread(new ParameterizedThreadStart(ClientThread));
+                Thread.Start(Client);
             }
         }
 
@@ -45,6 +48,11 @@ namespace HTTPServer
             {
                 Listener.Stop();
             }
+        }
+
+        static void ClientThread(Object StateInfo)
+        {
+            new Client((TcpClient)StateInfo);
         }
 
         static void Main(string[] args)
